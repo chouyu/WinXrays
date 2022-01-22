@@ -1,0 +1,38 @@
+{
+    "name": "Xray",
+    "description": "Xray websocket proxy on heroku",
+    "keywords": ["Xray vmess vless trojan shadowsocks socks tor"],
+    "env": {
+        "AA": {
+            "description": "Beginner users only need to modify the following AUUID and click the Deploy app button at the end of the page to start the deployment",
+            "value": "If an error occurs, please check the parameter format or try a few more times. Before using custom parameters, be sure to fully understand their meaning"
+        },
+        "AUUID": {
+            "description": "UUID acts as the path and account password of each configuration. It is recommended to modify and save it properly. Websites that can generate UUID: https://www.uuidgenerator.net",
+            "value": "8f91b6a0-e8ee-11ea-adc1-0242ac120002"
+        },
+        "CADDYIndexPage": {
+            "description": "After the custom CADDY deployment is completed, click the display page of View, refer to：https://github.com/Trumpy/WinXrays/blob/master/etc/CADDYIndexPage.md",
+            "value": "https://raw.githubusercontent.com/caddyserver/dist/master/welcome/index.html"
+        },
+        "CONFIGCADDY": {
+            "description": "Read and configure the custom network address to run CADDY, please do not modify it if you are not familiar with CADDY configuration",
+            "value": "https://raw.githubusercontent.com/Trumpy/WinXrays/master/etc/Caddyfile"
+        },
+        "CONFIGXRAY": {
+            "description": "Custom network address read configuration to run Xray, do not modify if you are not familiar with Xray configuration",
+            "value": "https://raw.githubusercontent.com/Trumpy/WinXrays/master/etc/xray.json"
+        },
+        "ParameterSSENCYPT": {
+            "description": "SS encryption method, check the supported protocol: https://www.v2fly.org/config/protocols/shadowsocks.html",
+            "value": "chacha20-ietf-poly1305"
+        },
+        "StoreFiles": {
+            "description": "Custom network address to read storage file list",
+            "value": "https://raw.githubusercontent.com/Trumpy/WinXrays/master/etc/StoreFiles"
+        }
+    },
+    "website": "",
+    "repository": "",
+    "stack": "container"
+}

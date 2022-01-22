@@ -4,7 +4,7 @@ The variable CADDYIndexPage is used for the page content displayed by clicking V
   
 * [Welcome to the caddy page](https://raw.githubusercontent.com/caddyserver/dist/master/welcome/index.html)  
 
-* [Letter-SimpleSignUpForm](https://github.com/Trumpy/Xray/archive/main.zip)
+* [Letter-Simple Sign Up Form](https://github.com/Trumpy/Xray/archive/main.zip)
 
 * [3DCEList Periodic Table of Elements](https://github.com/wulabing/3DCEList/archive/master.zip)  
 
